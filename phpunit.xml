@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phpunit bootstrap="./tests/bootstrap.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         stopOnFailure="false">
+    <testsuites>
+        <testsuite name="Yii2 Mougrim Logger Unit Test Suite">
+            <directory>./tests/unit</directory>
+        </testsuite>
+        <testsuite name="Yii2 Mougrim Logger Functional Test Suite">
+            <directory>./tests/functional</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist addUncoveredFilesFromWhitelist="true" processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">.</directory>
+            <exclude>
+                <directory>vendor</directory>
+                <directory>tests</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>

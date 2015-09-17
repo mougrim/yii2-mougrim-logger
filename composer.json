@@ -1,0 +1,37 @@
+{
+    "name": "mougrim/yii2-mougrim-logger",
+    "type": "yii2-extension",
+    "description": "Port mougrim/php-logger to Yii2",
+    "keywords": [
+        "yii2",
+        "yii2 logger",
+        "yii2 mougrim logger",
+        "logger",
+        "mougrim logger"
+    ],
+    "homepage": "https://github.com/mougrim/yii2-mougrim-logger",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/mougrim/yii2-mougrim-logger/issues",
+        "source": "https://github.com/mougrim/yii2-mougrim-logger"
+    },
+    "authors": [
+        {
+            "name": "Mougrim",
+            "email": "rinat@mougrim.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "2.*",
+        "mougrim/php-logger": "2.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mougrim\\yii2Logger\\": "src"
+        }
+    }
+}

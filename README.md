@@ -1,12 +1,13 @@
 # Mougrim logger port Extension for Yii 2
 
-This extension provides using [mougrim/php-logger](https://github.com/mougrim/php-logger) in Yii 2 Framework.
+This extension provides using [mougrim/php-logger](https://github.com/mougrim/php-logger) (ex [Mitallast](https://github.com/mitallast/) Logger) in Yii 2 Framework.
 
 This extension provides all logs expects profiling logs.
 
 [![Latest Stable Version](https://poser.pugx.org/mougrim/yii2-mougrim-logger/version)](https://packagist.org/packages/mougrim/yii2-mougrim-logger)
 [![Latest Unstable Version](https://poser.pugx.org/mougrim/yii2-mougrim-logger/v/unstable)](https://packagist.org/packages/mougrim/yii2-mougrim-logger)
 [![License](https://poser.pugx.org/mougrim/yii2-mougrim-logger/license)](https://packagist.org/packages/mougrim/yii2-mougrim-logger)
+[![Build Status](https://api.travis-ci.org/mougrim/yii2-mougrim-logger.png?branch=master)](https://travis-ci.org/mougrim/yii2-mougrim-logger)
 
 ## Benefits
 
@@ -15,7 +16,7 @@ This extension provides all logs expects profiling logs.
 - interface like Apache log4php (with debug log level);
 - higher than yii2 logger performance.
 
-For more information and benchmark see [benefits](BENEFITS.md).
+For more information and benchmark result see [benefits](BENEFITS.md).
 
 ## Installation
 

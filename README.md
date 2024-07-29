@@ -1,3 +1,6 @@
+# Repository is archived
+If you want to maintain it, you can make a fork.
+
 # Mougrim logger port Extension for Yii 2
 
 This extension provides using [mougrim/php-logger](https://github.com/mougrim/php-logger) (ex [Mitallast](https://github.com/mitallast/) Logger) in Yii 2 Framework.
